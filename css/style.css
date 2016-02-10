@@ -1,0 +1,10 @@
+.animal img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  position: absolute;
+  top: 0px
+}
+.map {
+  position: relative;
+}
