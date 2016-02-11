@@ -1,61 +1,92 @@
 .animal img{
-  width: 100px;
-  height: 100px;
-  border-radius: 100px;
-  /*position: absolute;*/
+  width: 200px;
+  height: 160px;
+  /*border-radius: 100px;*/
+  position: absolute;
   /*box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);*/
-  margin: 9px 0px 0px 9px;
+  /*margin: 9px 0px 0px 9px;*/
 }
 .animal {
   background-image: url("../img/pointer.png");
   background-repeat: no-repeat;
-  width: 200px;
+  width: 170px;
   height: 160px;
 }
+
 .map {
   position: relative;
 }
+.info {
+  display: none;
+  position: absolute;
+  bottom: 145px;
+  left: auto;
+  right: auto;
+}
+
+p {
+  font-family: helvetica;
+  background-color: yellow;
+  opacity: .8;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 2px;
+
+}
+
+#slothawk:hover > .info, #pugorilla:hover > .info, #killerpengwhale:hover > .info, #guinealion:hover > .info, #duckstallion:hover > .info, #ducklephant:hover > .info, #dolpharoo:hover > .info, #bunnybird:hover > .info, #chickitten:hover > .info {
+    display: inline-block;
+}
 #bunnybird {
+  background-image: url("../img/bunnybird-pointer.png");
   position: absolute;
   top: 250px;
   left: 930px;
 }
 #chickitten {
+  background-image: url("../img/chickitten-pointer.png");
   top: 360px;
   left: 200px;
   position: absolute;
 }
 #dolpharoo {
+  background-image: url("../img/dolpharoo-pointer.png");
   top: 900px;
   left: 1575px;
   position: absolute;
 }
 #ducklephant {
+  background-image: url("../img/ducklephant-pointer.png");
   top: 555px;
   left: 1530px;
   position: absolute;
 }
 #duckstallion {
+  background-image: url("../img/duckstallion-pointer.png");
   top: 360px;
   left: 1370px;
   position: absolute;
 }
 #guinealion {
+  background-image: url("../img/guinealion-pointer.png");
   top: 650px;
   left: 1100px;
   position: absolute;
 }
 #killerpengwhale {
+  background-image: url("../img/killerpengwhale-pointer.png");
   top: 30px;
   left: 1000px;
   position: absolute;
 }
 #pugorilla {
+  background-image: url("../img/pugorilla-pointer.png");
   top: 750px;
   left: 1000px;
   position: absolute;
 }
 #slothawk {
+  background-image: url("../img/slothawk-pointer.png");
   top: 650px;
   left: 200px;
   position: absolute;
